@@ -1,0 +1,9 @@
+file_format: "1"
+id: lfh
+name: lfh
+type: shield
+url: https://github.com/BloonFH/zmk-config-testzmk
+requires: [pro_micro]
+features:
+  - keys
+siblings: []
