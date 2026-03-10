@@ -31,7 +31,7 @@
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y
                 &kp BSPC    &kp A       &kp S       &kp D       &kp F       &kp G       &mo(2)
                 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B
-                &kp LCTRL   &kp LGUI    &kp LALT    &mo(1)      &kp SPACE       
+                &kp LCTRL   &kp ENTER    &kp LALT    &mo(1)      &kp SPACE       
             >;
 
         };
@@ -40,8 +40,8 @@
             display-name = "Right Layer";
             bindings = <
                 &trans      &kp N7      &kp N8      &kp N9      &kp N0      &kp N5      &kp N6      &kp DEL
-                &trans      &kp Y       &kp O       &kp I       &kp U       &kp P       &kp SEMI
-                &trans      &kp SQT     &kp J       &kp K       &kp H       &kp L       &trans
+                &kp CAPS    &kp Y       &kp O       &kp I       &kp U       &kp P       &kp SEMI
+                &trans      &kp SQT     &kp H       &kp K       &kp J       &kp L       &trans
                 &mo (3)     &kp DOT     &kp COMMA   &kp QMARK   &kp N       &kp M
                 &trans      &trans      &trans      &trans      &trans       
             >;
