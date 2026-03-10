@@ -27,11 +27,11 @@
             display-name = "Default Layer";
 
             bindings = <
-                &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp BSPC
+                &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5      &kp N6      &kp CAPS
                 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T       &kp Y
-                &kp CAPS    &kp A       &kp S       &kp D       &kp F       &kp G       &mo(2)
+                &kp BSPC    &kp A       &kp S       &kp D       &kp F       &kp G       &mo(2)
                 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B
-                &kp LCTRL   &kp LGUI    &kp LALT    &mo(1)     &kp R       
+                &kp LCTRL   &kp LGUI    &kp LALT    &mo(1)      &kp SPACE       
             >;
 
         };
@@ -40,9 +40,9 @@
             display-name = "Right Layer";
             bindings = <
                 &trans      &kp N7      &kp N8      &kp N9      &kp N0      &kp N5      &kp N6      &kp DEL
-                &trans      &kp SEMI    &kp O       &kp I       &kp U       &kp Y       &kp P
-                &trans      &kp SQT     &kp J       &kp L       &kp K       &kp H       &trans
-                &trans      &kp DOT     &kp COMMA   &kp QMARK   &kp N       &kp M
+                &trans      &kp Y       &kp O       &kp I       &kp U       &kp P       &kp SEMI
+                &trans      &kp SQT     &kp J       &kp K       &kp H       &kp L       &trans
+                &mo (3)     &kp DOT     &kp COMMA   &kp QMARK   &kp N       &kp M
                 &trans      &trans      &trans      &trans      &trans       
             >;
         };
@@ -50,10 +50,10 @@
         media_layer {
             display-name = "Media Layer";
             bindings = <
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans
+                &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 0 &trans      &trans      &trans      &trans
+                &out OUT_TOG &trans      &trans      &trans      &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE
+                &trans      &trans      &trans      &trans      &C_BRI_DN   &C_BRI_UP   &trans
+                &trans      &trans      &trans      &kp C_PREV &kp C_PP &kp C_NEXT
                 &trans      &trans      &trans      &trans      &trans       
             >;
         };
@@ -61,8 +61,8 @@
             display-name = "Additional Layer";
             bindings = <
                 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans
-                &trans      &trans      &trans      &trans      &trans      &trans      &trans
+                &trans      &trans      &trans      &kp UP      &trans      &trans      &trans
+                &trans      &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
                 &trans      &trans      &trans      &trans      &trans      &trans
                 &trans      &trans      &trans      &trans      &trans       
             >;
