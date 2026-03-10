@@ -88,12 +88,13 @@
             , <&key_physical_attrs 180 100  600  400       0     0     0>
             ;
     };
+};
 
-    &i2c0 {
+&i2c0 {
         compatible = "nordic,nrf-twi";
         status = "okay";
-        sda-pin = <17>;   /* replace with your actual pin number */
-        scl-pin = <20>;   /* replace with your actual pin number */
+        sda-pin = <6>;   /* replace with your actual pin number */
+        scl-pin = <7>;   /* replace with your actual pin number */
 
         oled: ssd1306@3c {
             compatible = "solomon,ssd1306fb";
@@ -110,4 +111,3 @@
             prechargep = <0x22>;
         };
     };
-};
