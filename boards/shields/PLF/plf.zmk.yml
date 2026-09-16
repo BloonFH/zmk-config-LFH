@@ -1,6 +1,6 @@
 file_format: "1"
-id: lfh
-name: lfh
+id: plf
+name: plf
 type: shield
 url: https://github.com/BloonFH/zmk-config-testzmk
 requires: [pro_micro]

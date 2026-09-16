@@ -1,6 +1,9 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_LFH
-    def_bool $(shields_list_contains,lfh)
+if SHIELD_PLF
 
+config ZMK_KEYBOARD_NAME
+    default "plf"
+
+endif
